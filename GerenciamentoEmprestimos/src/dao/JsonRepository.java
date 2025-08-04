@@ -1,5 +1,4 @@
 package dao;
-
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,7 +8,7 @@ import java.lang.reflect.Type;
 import com.google.gson.Gson;
 
 public class JsonRepository<T> {
-	private final Gson gson;
+    private final Gson gson;
     private final String caminhoArquivo;
 
     public JsonRepository(String caminhoArquivo) {

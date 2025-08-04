@@ -1,5 +1,5 @@
 package enums;
 
 public enum StatusObra {
-	DISPONIVEL, EMPRESTADO;
+    DISPONIVEL, EMPRESTADO;
 }
